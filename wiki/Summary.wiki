@@ -1,0 +1,25 @@
+As in the summary, freecoders is not a single project (although in the form of the solution). It was started 2 years ago, lasted for many months and then I had no time to complete every idea. Also,please forgive me that I can not remember everything clearly since not touched for years. For each projects, I would like to give some brief comments.
+
+Ann: The project of Artifican Neuron Network. The second or thired C# implementation of the same idea which I've done in C++ and even in VB. It's true that I did this project again and again, also true that I never make it finally. However, if I can make it, that's the break though of the computer science (IBMers are doing the same thing on their Darker Blue machine meanwhile). You will find some ideas and implementations, however, you may not expect any result from this project so far. 
+
+Real: Real Parallel processing. This is a proof-of-concept project as well. However, you still be able to use the source as external library if you need this support. The whole idea of Real Parallel processing is to build a true parallel processing system upon a sequential system. Since there would be too many neorons and I have to simulate their detailed behaviour, I can not do this with only one or two CPUs. I need millions of CPUs which I would maybe never have. That's a problem, and Real Parallel processing idea and implementation is designed to solve this problem.
+
+Knownet: Higher level of ANN. It is not easy to build a human-like knowledge system without years of efforts. Even for a baby to learn to speak and think, this still needs for over decades. How to speed up this process and make this effort be able to be experimented? We can introduce half-way simulation. However, we should still try to know what is KNOWLEDGE and how the KNOWLEDGE is orginised. We know BNF, we know symantic network, but we truly have no idea about neoron struture. Knownet is designed to try to find the struture and build the intermediate form of the KNOWLEDGE which can be used both by neuron (simulation) and a common compiler.
+
+NetFx: Human language programming is not just a strange idea. Actually, it is the first and easist step that we go to real AI. Currently, a compiler takes the responsiblity to translate human-readable programming language into machine language. It's good, but have big limit. 1. It is quite hard for the program itself to change its own code (or other program's code) dynmaically. Despite it is not safe to provide this function most of time, if program has no ability to do so, even one day that program can program itself, there would still need this function. 2. Different programming lanugages have big gap even they will be translated into same machine code. 
+
+.NET provided same intermediate language code (IL) which is a big advance to provide unified solution. This means it is now possible that every language can be tranlsated into a single lanugage and vice versa. NetFx provided a solution to translate IL into another customized Assembly language which is more like to be a human-language assembly. NetFx provides the bi-directional translation of IL assembly and this customized Assembly. It also supports XML translation (translating assembly into full representation of XML down to instruction level).
+
+PEA: The utility to read/write PE files (with .NET support). This util is useful for NetFx since with it, there is no need to use ILEmit of the .NET framework which has many limits.
+
+
+That's almost all that I can remember. I do hope you can find something helpful... I do not have much time working on the projects maybe for the following years. And I don't know when is the next time that I will upload the new release.
+
+However, hope this helps.
+
+
+Sincerely,
+Yilin
+
+yyl_20020115@yahoo.com.cn
+ 
