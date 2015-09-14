@@ -1,0 +1,1 @@
+It is not easy to say exactly what this project is. It is a big collection of almost everything that I was working on. You may find out whatever useful for you in the source code. You're also welcomed to contribute on this project. For details, please read the source.
